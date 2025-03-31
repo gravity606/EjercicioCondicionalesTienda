@@ -64,8 +64,9 @@ public class Main { public static void main(String[] args) {
 
     mensajeFinal = (confirmacion.equals("si")) ? "Su envio se realizara en las proximas 24 horas" : "Su pedido ha sido cancelado";
 
-    System.out.println(mensajeFinal);
-
+        System.out.println("*********************************");
+        System.out.println(mensajeFinal);
+        System.out.println("*********************************");
     }
 }
 }
